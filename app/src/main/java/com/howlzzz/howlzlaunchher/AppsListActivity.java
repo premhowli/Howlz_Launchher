@@ -25,7 +25,7 @@ public class AppsListActivity extends AppCompatActivity {
         manager = getPackageManager();
         apps = new ArrayList<AppDetail>();
 
-
+//initial commit
         Intent i = new Intent(Intent.ACTION_MAIN, null);
         i.addCategory(Intent.CATEGORY_LAUNCHER);
 
